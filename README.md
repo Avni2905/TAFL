@@ -1,6 +1,16 @@
-# TAFL
-An application for sports academies where they can track their athlete's progress and a friendly interface for parents to understand the academy better.
-there are features to be added that will be done in due time.
-this Platform uses RBAC to differentiate between students and Coach where the required access iks given to the respective roles and no overlap occurs 
-athletes can keep all their achievements in one place for future reference and coaches can track their progress.
-coaches get a friendly user interface to edit the site as per their requirements 
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
